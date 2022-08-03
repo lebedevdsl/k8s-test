@@ -3,3 +3,6 @@ resources:
 - postgres-deployment.yaml
 - postgres-pvc-pv.yaml
 - postgres-service.yaml
+
+commonLabels:
+  app: postgres
